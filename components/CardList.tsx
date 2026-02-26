@@ -7,7 +7,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import type { Post } from "@/lib/generated/prisma";
+import type { Post } from "@/lib/generated/prisma/client";
 
 type Props = {
   posts: Post[];
